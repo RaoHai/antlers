@@ -1,0 +1,26 @@
+{
+  "name": "antlers",
+  "version": "0.0.1",
+  "author": "RaoHai",
+  "scripts": {
+    "dev": "webpack-dev-server --config scripts/webpack.dev.js --mode development --open"
+  },
+  "dependencies": {
+    "mobx": "^3.6.1",
+    "mobx-react": "^4.4.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0",
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "html-webpack-plugin": "^3.0.6",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
